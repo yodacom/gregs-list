@@ -1,0 +1,60 @@
+nav {
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  text-align: right;
+  position: fixed;
+  height: 50px;
+  background-color: gray;
+  width: 100%;
+
+}
+
+.logo {
+  position: absolute;
+  left:10px;
+
+  }
+
+  li a {
+
+  display: block;
+  padding: 8px 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  color: purple;
+  }
+
+ nav li {
+
+ float: right;
+ padding: 8px 15px;
+ text-align: center;
+
+ }
+
+ ul {
+ list-style: none;
+ padding-right: 12px;
+ }
+
+ li a:hover {
+ color: #c00;
+ background-color: #fff;
+ }
+
+ li a:active {
+   color: green;
+ }
+
+ .search {
+   width:50%;
+   position:fixed;
+   display: inline-block;
+ }
+
+ .container {
+   width: 1200px;
+ }
