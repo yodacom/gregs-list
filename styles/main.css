@@ -50,11 +50,27 @@ nav {
  }
 
  .search {
-   width:50%;
-   position:fixed;
-   display: inline-block;
+  float: left;
+  margin: 5px; width: 600px;
+  margin-top: 95px;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid #00b4cc;
+  postion: absolute;
+
+ }
+.searchButton{
+  postion:absolute;
+  right: 75px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #00B4cc;
+}
+ .container {
+
  }
 
- .container {
-   width: 1200px;
+ .clear {
+   clear: both;
  }
