@@ -51,8 +51,9 @@ nav {
 
  .search {
   float: left;
-  margin: 5px; width: 600px;
+  margin: 5px; width: 400px;
   margin-top: 95px;
+  margin-left: 45px;
   text-align: left;
   border-radius: 5px;
   font-size: 20px;
@@ -61,11 +62,12 @@ nav {
 
  }
 .searchButton{
-  postion:absolute;
-  right: 75px;
+  postion: inline-block;
+  float: right;
   width: 20px;
   height: 20px;
   border: 1px solid #00B4cc;
+
 }
  .container {
 
